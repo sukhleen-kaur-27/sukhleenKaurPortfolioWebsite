@@ -58,8 +58,9 @@ hr{
     text-align: right;
 }
 .navigation .nav-brand{
-    text-align: center;
+    /* text-align: center; */
     font-weight: bold;
+    font-size: large;
 }
 .navigation .link-active{
     font-weight: bold;
