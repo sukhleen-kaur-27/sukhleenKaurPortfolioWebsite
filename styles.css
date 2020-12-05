@@ -3,7 +3,6 @@
 body{
     font-family: 'Work Sans', 
     sans-serif;
-    background-color: black;
     background-image: url("backgroundtry.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +12,7 @@ body{
     --primary-color:#34D399;
     --secondary-color:#9CA3AF;
     --background-color:#E5E7EB;
-    --newcolor:rgb(241, 14, 14);
+    --newcolor:rgb(219, 3, 3);
 }
 hr{
     margin: 2rem 0rem;
