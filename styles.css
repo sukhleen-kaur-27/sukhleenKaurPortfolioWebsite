@@ -3,7 +3,7 @@
 body{
     font-family: 'Work Sans', 
     sans-serif;
-    background-image: url("myimage.jpg");
+    background-image: url("backgroundtry.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -50,7 +50,7 @@ hr{
     padding: 0rem 0.5rem;
 }
 .navigation{
-    background-color:rgb(22, 21, 21);
+    background-color:rgb(194, 26, 26);
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius:0.5rem;
     padding:1rem 0.5rem;
@@ -112,7 +112,7 @@ hr{
 }
 .footer{
     text-align:center;
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(194, 26, 26);
     padding: 2rem 1rem;
     border-radius:0.5rem;
     color: white;
