@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet" />
+    <title>NumPy Arrays</title>
+</head>
+<body style="background-color: aliceblue; background-image: none;">
+    <div class="body-blog container container-center-blog">
+    <h1 class="center">Working with the numPy Arrays</h1>
+    <img class="blog-image" src="/mynumpylogo.PNG"/>
+    <h2 class= "center padding-blog-top">
+        What is numPy?
+    </h2>
+    <p>
+        Well, the answer to that question is that <span style="font-weight: bold;">numPy</span> is a <span style="font-weight: bold;">library</span> available Python. It comes in very handy when working with large data sets. We'll see some of the examples about how to use this library how to create arrays using this library. NumPy library is a multi-dimentional Array library. Using this library we can create <span style="font-weight: bold;">multi-dimentional arrays</span> like 1D, 2D, 3D, 4D and so on. The numPy arrays store homogeneous(data of same data type) data.
+    </p>
+    <h2 class="center">
+        Why numPy library when we have lists?
+    </h2>
+    <div class="padding-blog-bottom">
+        It is correct that we can use lists to create arrays but there are some limitations to it.
+        Let's see why we use numPy over lists :
+        <ul>
+            <div class="container container-center-blog">
+            <li>First thing why we use this library is that it takes way less space than a list and hence it is <span style="font-weight: bold;">Faster.</span><br/>
+            The space required by an integer stored using numPy is either 32Int by default or we can decrease this size to 16Int or 8Int if we want which we'll see when we start creating numPy arrays.
+            But the space taken by a list integer is  quite big as you can see in the picture above. It requires 8 bytes for Reference Count, 8 bytes for Object Type, 8 bytes for Object Value, and around 4 bytes for Size.
+            <span style="font-weight: bold;">Using numPy array uses less memory.</span>
+            </li>
+            </div>
+            <br/>
+            <div class="container container-center-blog">
+            <li>
+                The other reason why it is better to use numPy is that lists while iterating do the type checking but since numPy arrays contain <span style="font-weight:bold;">homogeneous(same type)</span> data, there is <span style="font-size: bold;">no type checking.</span>
+            </li>
+            </div>
+            <br/>
+            <div class="container container-center-blog">
+            <li>
+               numPy utilizes <span style="font-weight: bold;">contiguous memory</span> and list doesn't. Hence, even the cache is utilized vey efficiently in this case.
+            </li>
+            </div>
+            <br/>
+            <div>
+                <li class="container container-center-blog">
+                    Another reason of using numPy arrays is that we can do operations like <span style="font-weight: bold;">addition, subtraction, multiplication, and divsion </span>on numPy arrays without much difficulty unlike in lists. 
+               </li>
+            </div>
+        </ul>
+        
+        <p>If you want to check out my other blog where I've written how to use numPy go check it out <a class="link" href="numPy_use.html">here</a></p>
+    </div>
+    </div>
+</body>
+</html>

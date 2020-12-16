@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 :root{
     --primary-color:#34D399;
@@ -132,4 +133,27 @@ hr{
 }
 .color-changes{
     color:white;
+}
+.body-blog{
+    background-color: aliceblue;
+    background-image: none;
+}
+.container-center-blog{
+    max-width: 750px;
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+.padding-blog-top{
+    padding-top: 2rem;
+}
+.padding-blog-bottom{
+    padding-bottom: 2rem;
+}
+.blog-image{
+    max-width: 350px;
+   display: block;
+   margin:auto;
+   border-radius: 10rem;
 }
